@@ -1,0 +1,21 @@
+{
+  "name": "daxslab/yii2-rawfileparser",
+  "description": "RawFileParser is a Yii2 extension that allows you to parse the content of requests that contain a raw file based on the `Content-Type` header. It does this by making the file available in the `$_FILES` array, allowing to handle it as a regular file upload.",
+  "type": "yii2-extension",
+  "keywords": ["yii2", "extension", "request", "file", "upload", "raw", "binary"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gabriel Alejandro López López",
+      "email": "glpz@daxslab.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "daxslab\\rawfileparser\\": "src"
+    }
+  }
+}
